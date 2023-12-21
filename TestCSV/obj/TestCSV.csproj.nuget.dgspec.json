@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\parth\\source\\repos\\UnitTestXML\\TestCSV\\TestCSV.csproj": {}
+    "E:\\upl\\slj\\UnitTestbyXLSX\\TestCSV\\TestCSV.csproj": {}
   },
   "projects": {
-    "C:\\Users\\parth\\source\\repos\\UnitTestXML\\TestCSV\\TestCSV.csproj": {
+    "E:\\upl\\slj\\UnitTestbyXLSX\\TestCSV\\TestCSV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parth\\source\\repos\\UnitTestXML\\TestCSV\\TestCSV.csproj",
+        "projectUniqueName": "E:\\upl\\slj\\UnitTestbyXLSX\\TestCSV\\TestCSV.csproj",
         "projectName": "TestCSV",
-        "projectPath": "C:\\Users\\parth\\source\\repos\\UnitTestXML\\TestCSV\\TestCSV.csproj",
+        "projectPath": "E:\\upl\\slj\\UnitTestbyXLSX\\TestCSV\\TestCSV.csproj",
         "packagesPath": "C:\\Users\\parth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parth\\source\\repos\\UnitTestXML\\TestCSV\\obj\\",
+        "outputPath": "E:\\upl\\slj\\UnitTestbyXLSX\\TestCSV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\parth\\source\\repos\\UnitTestXML\\UnitTestXML\\UnitTestXML.csproj": {
-                "projectPath": "C:\\Users\\parth\\source\\repos\\UnitTestXML\\UnitTestXML\\UnitTestXML.csproj"
+              "E:\\upl\\slj\\UnitTestbyXLSX\\UnitTestXML\\UnitTestXML.csproj": {
+                "projectPath": "E:\\upl\\slj\\UnitTestbyXLSX\\UnitTestXML\\UnitTestXML.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\parth\\source\\repos\\UnitTestXML\\UnitTestXML\\UnitTestXML.csproj": {
+    "E:\\upl\\slj\\UnitTestbyXLSX\\UnitTestXML\\UnitTestXML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parth\\source\\repos\\UnitTestXML\\UnitTestXML\\UnitTestXML.csproj",
+        "projectUniqueName": "E:\\upl\\slj\\UnitTestbyXLSX\\UnitTestXML\\UnitTestXML.csproj",
         "projectName": "UnitTestXML",
-        "projectPath": "C:\\Users\\parth\\source\\repos\\UnitTestXML\\UnitTestXML\\UnitTestXML.csproj",
+        "projectPath": "E:\\upl\\slj\\UnitTestbyXLSX\\UnitTestXML\\UnitTestXML.csproj",
         "packagesPath": "C:\\Users\\parth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parth\\source\\repos\\UnitTestXML\\UnitTestXML\\obj\\",
+        "outputPath": "E:\\upl\\slj\\UnitTestbyXLSX\\UnitTestXML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

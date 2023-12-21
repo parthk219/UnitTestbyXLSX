@@ -34,6 +34,77 @@
 
 
 
+//dotnet new nunit - n MyUnitTestProject
+// cd MyUnitTestProject
+//dotnet add package NUnit
+//dotnet add package NUnit3TestAdapter
+//dotnet add package ExcelDataReader
+//dotnet add package ExcelDataReader.DataSet
+
+
+
+
+//====================================================================================================================================
+
+//// CalculatorTests.cs
+//using System;
+//using System.Collections.Generic;
+//using System.Data;
+//using System.IO;
+//using System.Text;
+//using ExcelDataReader;
+//using NUnit.Framework;
+//using UnitTestXML;
+
+//[TestFixture]
+//public class CalculatorTests
+//{
+//    [Test]
+//    [TestCaseSource(nameof(GetTestDataFromExcel))]
+//    public void MultiplyTest(int a, int b, int expected)
+//    {
+//        // Arrange
+//        Calculator calculator = new Calculator();
+
+//        // Act
+//        int result = calculator.Multiply(a, b);
+
+//        // Assert
+//        Assert.AreEqual(expected, result);
+//    }
+
+//    private static IEnumerable<TestCaseData> GetTestDataFromExcel()
+//    {
+//        string excelFilePath = @"E:\UT.xlsx";
+
+//        using (var stream = File.Open(excelFilePath, FileMode.Open, FileAccess.Read))
+//        {
+//            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
+
+//            using (var reader = ExcelReaderFactory.CreateReader(stream, new ExcelReaderConfiguration { FallbackEncoding = Encoding.GetEncoding(1252) }))
+
+//            {
+//                var result = reader.AsDataSet();
+//                foreach (DataRow row in result.Tables[0].Rows)
+//                {
+//                    yield return new TestCaseData(
+//                        Convert.ToInt32(row["Operand1"]),
+//                        Convert.ToInt32(row["Operand2"]),
+//                        Convert.ToInt32(row["ExpectedResult"])
+//                    );
+//                }
+//            }
+//        }
+//    }
+//}
+
+
+
+
+
+
+
 
 
 
